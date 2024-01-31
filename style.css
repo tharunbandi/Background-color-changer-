@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aqua;
+    transition: 5s;
+
+}
+#ed{
+  padding: 10px;
+  text-transform: uppercase;
+  color: blueviolet;
+  animation: tranfo 1s ease-in;
+}
+@keyframes tranfo{
+    from{
+        transform: scale(1);
+        background-color: steelblue;
+    }
+    to{
+        transform: scale(1.2);
+        color: yellowgreen;
+    }
+}
